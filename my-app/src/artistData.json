@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "artistName": "(여자)아이들",
+        "imgFile": "artist_1.jpeg"
+    },
+    {
+        "id": 2,
+        "artistName": "아이유",
+        "imgFile": "artist_2.jpeg"
+    },
+    {
+        "id": 3,
+        "artistName": "aespa",
+        "imgFile": "artist_3.jpeg"
+    },
+    {
+        "id": 4,
+        "artistName": "방탄소년단",
+        "imgFile": "artist_4.jpeg"
+    },
+    {
+        "id": 5,
+        "artistName": "IVE(아이브)",
+        "imgFile": "artist_5.jpeg"
+    },
+    {
+        "id": 6,
+        "artistName": "태연",
+        "imgFile": "artist_6.jpeg"
+    }
+]

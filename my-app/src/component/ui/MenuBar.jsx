@@ -6,6 +6,7 @@ import LogoBox from '../ui/LogoBox';
 
 
 const Menubars = styled.div`
+    position: fixed;
     width: 340px;
     height: 100%;
     background-color: #121212;
@@ -17,7 +18,7 @@ function MenuBar () {
             <LogoBox logoImg={"logoSVG.svg"}/>
 
             <MenuList
-                menuInfos={menuData}
+                menuInfos={ menuData }
             />
         </Menubars>
     );
