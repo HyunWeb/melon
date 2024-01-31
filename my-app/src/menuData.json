@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "menuName": "홈",
+        "imgFile": "homeIcon.svg"
+    },
+    {
+        "id": 2,
+        "menuName": "검색 ",
+        "imgFile": "searchIcon.svg"
+    },
+    {
+        "id": 3,
+        "menuName": "멜론차트",
+        "imgFile": "chartIcon.svg"
+    },
+    {
+        "id": 4,
+        "menuName": "최신앨범",
+        "imgFile": "cdIcon.svg"
+    },
+    {
+        "id": 5,
+        "menuName": "마이뮤직",
+        "imgFile": "profile_img.png"
+    }
+]
