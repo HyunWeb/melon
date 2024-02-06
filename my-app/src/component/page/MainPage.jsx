@@ -2,11 +2,13 @@ import React from 'react';
 import styled from "styled-components";
 import MenuBar from '../ui/MenuBar';
 import RecommendArtistBox from '../ui/RecommandArtistBox';
+import FeedBoxList from '../list/FeedBoxList';
+import PlayList from '../list/PlayList';
 
 const Wrapper = styled.div`
     width: 100vw;
-    height: 100vh;
-    background-color: #303030;
+    height: 100%;
+   overflow-x: hidden;
     font-family: 'GmarketSansMedium', sans-serif;
 `;
 
@@ -14,9 +16,11 @@ function MainPage(props) {
 
 
     return(
-        <Wrapper >
+        <Wrapper>
             <MenuBar/>
             <RecommendArtistBox/>
+            <FeedBoxList/>
+            <PlayList/>
         </Wrapper>
     );
 }
@@ -24,3 +28,7 @@ function MainPage(props) {
 
 
 export default MainPage;
+
+/*
+    FeedBox > FeedImg / FeedProfile / FeedParagraph > 
+*/

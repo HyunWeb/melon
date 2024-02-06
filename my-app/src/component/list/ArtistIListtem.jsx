@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const WrapItem = styled.li`
-    width: 130px; 
+    width: 115px; 
     height: 130px;
 `;
 const ImgBox = styled.div`
@@ -34,8 +34,6 @@ const ArtistNames = styled.p`
 
 function ArtistListItem(props) {
     const { imgFile, artistName } = props;
-
-    console.log(artistName);
 
     return (
         <WrapItem>
