@@ -3,7 +3,7 @@ import styled from "styled-components";
 import MenuBar from '../ui/MenuBar';
 import RecommendArtistBox from '../ui/RecommandArtistBox';
 import FeedBoxList from '../list/FeedBoxList';
-import PlayList from '../list/PlayList';
+import PlayBox from '../list/PlayBox';
 
 const Wrapper = styled.div`
     width: 100vw;
@@ -20,7 +20,7 @@ function MainPage(props) {
             <MenuBar/>
             <RecommendArtistBox/>
             <FeedBoxList/>
-            <PlayList/>
+            <PlayBox/>
         </Wrapper>
     );
 }

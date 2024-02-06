@@ -35,7 +35,7 @@ function ProfileUsername (props) {
         <Wrapper>
             <TextWrap><Name>{userName}</Name> <Span>{`1hour`}</Span></TextWrap>
             <Recommend>{`추천해요`} <Strong>{recommendCount}</Strong>{`개`}</Recommend>
-            <ButtonBox/>
+            <ButtonBox buttonImg1={`recommendStar.svg`} buttonImg2={`commentIcon.svg`} buttonImg3={`addPlayListIcon.svg`}/>
         </Wrapper>
     );
 }

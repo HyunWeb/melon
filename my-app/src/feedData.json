@@ -5,7 +5,9 @@
         "text": "음악추천 \n어떤 플레이리스트든지 항상 포함되는 SURL의 노래입니다.\n초반 도입부부터 베이스리프와 기타리프가 상당히 깔쌈합니다.\n사실 저는 베이스 리프 하나에 꽂혔습니다.",
         "thumbnail": "profile_img.png",
         "recommendCount": "150",
-        "userName": "Jong_Hyun"
+        "userName": "Jong_Hyun",
+        "artistName": "SURL",
+        "musicName": "옥상에서 춤을"
     },
     {
         "id": 2,
@@ -13,7 +15,10 @@
         "text": "🎧음악 추천 <Flyby.> - Virginia to Vegas 🎸\n최근 발굴한 노래 중 단연코 원탑이라고 단언할 수 있을 정도로 \n좋은 노래 ㅠ.ㅠ 비트부터 멜로디,음색까지 미쳤음!-!",
         "thumbnail": "thumbnailImg_2.avif",
         "recommendCount": "230",
-        "userName": "like_ham_703"
+        "userName": "like_ham_703",
+        "artistName": "Virginia to Vegas",
+        "musicName": "Flyby."
+
     },
     {
         "id": 3,
@@ -21,6 +26,8 @@
         "text": "오늘의 음악 추천 🎵\nNatural - DRW\n밴드사운드 좋아하면 꼭 들어보긔",
         "thumbnail": "thumbnailImg_3.png",
         "recommendCount": "120",
-        "userName": "Mr.hwang360"
+        "userName": "Mr.hwang360",
+        "artistName": "DRW",
+        "musicName": "Natural"
     }
 ]

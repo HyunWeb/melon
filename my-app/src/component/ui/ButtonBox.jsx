@@ -1,7 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    width: ${(props) => props.width};
+    display: flex;
+    flex-direction: row;
+    justify-content: ${(props) => props.position};
+`;
 const Button1 = styled.button`
     width: 35px;
     height: 35px; 
@@ -30,11 +35,12 @@ const Button3 = styled(Button1)`
 `;
 
 function ButtonBox (props) {
+    const {buttonImg1, buttonImg2, buttonImg3, width, position} = props
     return(
-        <Wrapper>
-            <Button1 url={process.env.PUBLIC_URL + `/recommendStar.svg`}/>
-            <Button2 url={process.env.PUBLIC_URL + `/commentIcon.svg`}/>
-            <Button3 url={process.env.PUBLIC_URL + `/addPlayListIcon.svg`}/>
+        <Wrapper width={width} position={position}>
+            <Button1 url={process.env.PUBLIC_URL + `/${buttonImg1}`}/>
+            <Button2 url={process.env.PUBLIC_URL + `/${buttonImg2}`}/>
+            <Button3 url={process.env.PUBLIC_URL + `/${buttonImg3}`}/>
         </Wrapper>
     );
 }
