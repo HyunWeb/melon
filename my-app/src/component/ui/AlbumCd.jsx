@@ -2,7 +2,8 @@ import React from 'react';
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-    flex-grow: 1;
+    // flex-grow: 1;
+    padding: 10px;
     display:flex;
     justify-content: center;
 `;

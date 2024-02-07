@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import MenuBar from '../ui/MenuBar';
 import RecommendArtistBox from '../ui/RecommandArtistBox';
 import FeedBoxList from '../list/FeedBoxList';
 import PlayBox from '../list/PlayBox';
@@ -17,7 +16,6 @@ function MainPage(props) {
 
     return(
         <Wrapper>
-            <MenuBar/>
             <RecommendArtistBox/>
             <FeedBoxList/>
             <PlayBox/>

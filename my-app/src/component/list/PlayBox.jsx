@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import NowPlaying from '../ui/NowPlaing';
+import MusicInfo from '../ui/MusicInfo';
 import PlayList from './PlayList';
 
 const Wrapper = styled.div`
@@ -20,7 +20,7 @@ function PlayBox () {
 
     return(
         <Wrapper>
-            <NowPlaying musicName={`옥상에서 춤을`} artistName={`SRUL`}/>
+            <MusicInfo/>
             <PlayList/>
         </Wrapper>
     );
