@@ -2,26 +2,31 @@
     {
         "id": 1,
         "menuName": "홈",
-        "imgFile": "homeIcon.svg"
+        "imgFile": "homeIcon.svg",
+        "SelectedimgFile": "homeIconSelected.svg"
     },
     {
         "id": 2,
         "menuName": "검색 ",
-        "imgFile": "searchIcon.svg"
+        "imgFile": "searchIcon.svg",
+        "SelectedimgFile": "searchIconSelected.svg"
     },
     {
         "id": 3,
         "menuName": "멜론차트",
-        "imgFile": "chartIcon.svg"
+        "imgFile": "chartIcon.svg",
+        "SelectedimgFile": "chartIconSelected.svg"
     },
     {
         "id": 4,
         "menuName": "최신앨범",
-        "imgFile": "cdIcon.svg"
+        "imgFile": "cdIcon.svg",
+        "SelectedimgFile": "cdIconSelected.svg"
     },
     {
         "id": 5,
         "menuName": "마이뮤직",
-        "imgFile": "profile_img.png"
+        "imgFile": "profile_img.png",
+        "SelectedimgFile": "profile_img.png"
     }
 ]

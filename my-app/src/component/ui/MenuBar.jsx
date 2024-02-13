@@ -6,6 +6,9 @@ import LogoBox from '../ui/LogoBox';
 
 
 const Menubars = styled.div`
+    transition-duration: 400ms;
+    white-space: nowrap;
+    overflow: hidden;
     position: fixed;
     width: 340px;
     height: 100%;

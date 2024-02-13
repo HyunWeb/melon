@@ -21,7 +21,7 @@ const SListItemButton = styled.button`
     height: 100%;
     font-size: inherit;
     font-family: inherit;
-    color: inherit;
+    color: ${(props) => props.color};
     text-align: left;
 
     display: block;
@@ -34,11 +34,11 @@ const SListItemButton = styled.button`
 `;
 
 function MenuListItem(props) {
-    const {imgFile, menuName} = props;
+    const {imgFile, menuName, Clickmethod, colors} = props;
 
     return (
         <SMenuListItem url={process.env.PUBLIC_URL + `/${imgFile}`}>
-            <SListItemButton>
+            <SListItemButton color={colors} onClick={Clickmethod}>
                 { menuName }
             </SListItemButton>
         </SMenuListItem>

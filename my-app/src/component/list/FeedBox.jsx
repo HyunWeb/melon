@@ -52,7 +52,6 @@ const FeedParagraph = styled.p`
 
 function FeedBox(props) {
     const {feedImgfile, text, thumbnail, recommendCount, userName} = props;
-    console.log(feedImgfile);
     return(
         <Wrapper>
             <PlayButton></PlayButton>
