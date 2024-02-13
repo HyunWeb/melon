@@ -9,7 +9,7 @@ const SMenuList = styled.ul`
 `;
 
 function MenuList(props) {
-    const { menuInfos } = props;
+    const { menuInfos, widthChange } = props;
     const[currentMenu, setcurrentMenu] = useState(1);
 
     const whiteColor = `#fafafa`;
@@ -24,10 +24,10 @@ function MenuList(props) {
                         key={menuInfo.id}
                         imgFile={menuInfo.id == currentMenu ? menuInfo.SelectedimgFile : menuInfo.imgFile}
                         menuName={menuInfo.menuName}
-                        Clickmethod={() => {
-                            setcurrentMenu(menuInfo.id);
-                        }}
+                        settingcurrentMenu={setcurrentMenu}
+                        elementIndex={menuInfo.id}
                         colors={menuInfo.id == currentMenu ? greenColor : whiteColor}
+                        widthChange={widthChange}
                     />
                 )
             })}
@@ -36,10 +36,3 @@ function MenuList(props) {
 }
 
 export default MenuList;
-
-/*
-    첫로딩이 될때는 홈 버튼만 초록색인 상태다.
-    이후 버튼을 클릭하면 
-    모든 버튼의 색흰색으로 바꾸고
-    눌린 버튼의 색만 바꾼다. 
-*/

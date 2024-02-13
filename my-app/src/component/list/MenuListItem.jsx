@@ -34,11 +34,24 @@ const SListItemButton = styled.button`
 `;
 
 function MenuListItem(props) {
-    const {imgFile, menuName, Clickmethod, colors} = props;
+    const {imgFile, menuName, settingcurrentMenu, colors, elementIndex, widthChange} = props;
+
+    const Clickmethods =
+        () => {
+            settingcurrentMenu(elementIndex);
+        }
+    const ChangeWidthFunc = () => {
+        if(elementIndex == 2)
+        widthChange((prevIsConfirmed) => !prevIsConfirmed);
+        else {
+        widthChange(false);
+        }
+    }
+    
 
     return (
-        <SMenuListItem url={process.env.PUBLIC_URL + `/${imgFile}`}>
-            <SListItemButton color={colors} onClick={Clickmethod}>
+        <SMenuListItem url={process.env.PUBLIC_URL + `/${imgFile}`} onClick={ChangeWidthFunc}>
+            <SListItemButton color={colors} onClick={Clickmethods}>
                 { menuName }
             </SListItemButton>
         </SMenuListItem>
