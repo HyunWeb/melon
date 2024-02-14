@@ -3,7 +3,7 @@ import styled from "styled-components";
 import FeedBox from "./FeedBox";
 import feedData from "../../feedData.json";
 const Wrapper = styled.div`
-    margin-left: 40%;
+    margin-left: 35%;
 
     color: #fafafa;
     font-size: 17px;

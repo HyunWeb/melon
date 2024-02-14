@@ -5,7 +5,7 @@ import artistData from "../../artistData.json";
 
 const Wrapper = styled.div`
     width: 50%;
-    margin-left: 35%;
+    margin-left: 30%;
     padding-top: 30px;
 `;
 
