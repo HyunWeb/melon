@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "albumImage": "POP_melonChartMusic_1.jpeg",
+        "artistName": "CHARLIE",
+        "musicName": "I Don't Think That I Like Her"
+    },
+    {
+        "id": 2,
+        "albumImage": "POP_melonChartMusic_2.jpeg",
+        "artistName": "Lauv",
+        "musicName": "Steal The Show (From “엘리멘탈”)"
+    },
+    {
+        "id": 3,
+        "albumImage": "POP_melonChartMusic_3.jpeg",
+        "artistName": "Charlie Puth",
+        "musicName": "Dangerously"
+    },
+    {
+        "id": 4,
+        "albumImage": "POP_melonChartMusic_4.jpeg",
+        "artistName": "The Kid LAROI, Justin Bieber",
+        "musicName": "STAY"
+    },
+    {
+        "id": 5,
+        "albumImage": "POP_melonChartMusic_5.jpeg",
+        "artistName": "J.Tajor",
+        "musicName": "Like I Do"
+    },
+    {
+        "id": 6,
+        "albumImage": "POP_melonChartMusic_6.jpeg",
+        "artistName": "Ayumu Imazu",
+        "musicName": "Obsessed"
+    },
+    {
+        "id": 7,
+        "albumImage": "POP_melonChartMusic_7.jpeg",
+        "artistName": "Justin Bieber",
+        "musicName": "Off My Face"
+    },
+    {
+        "id": 8,
+        "albumImage": "POP_melonChartMusic_1.jpeg",
+        "artistName": "Charlie Puth",
+        "musicName": "That's Hilarious"
+    },
+    {
+        "id": 9,
+        "albumImage": "POP_melonChartMusic_9.jpeg",
+        "artistName": "Sia",
+        "musicName": "Snowman"
+    },
+    {
+        "id": 10,
+        "albumImage": "POP_melonChartMusic_1.jpeg",
+        "artistName": "Anne-Marie",
+        "musicName": "2002"
+    }
+]

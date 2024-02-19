@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 // Pages
 import MainPage from './component/page/MainPage';
+import MelonChart from './component/page/MelonChart';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MenuBar/>
       <Routes>
         <Route index element={<MainPage />}/>
+        <Route path="MelonChart" element={<MelonChart />}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import styled from "styled-components";
 
 const SMenuListItem = styled.li`
@@ -34,11 +36,14 @@ const SListItemButton = styled.button`
 `;
 
 function MenuListItem(props) {
-    const {imgFile, menuName, settingcurrentMenu, colors, elementIndex, widthChange} = props;
+    const {imgFile, menuName, settingcurrentMenu, colors, elementIndex, widthChange, goPath} = props;
+    const navigate = useNavigate();
+
 
     const Clickmethods =
         () => {
             settingcurrentMenu(elementIndex);
+            navigate(goPath);
         }
     const ChangeWidthFunc = () => {
         if(elementIndex == 2)

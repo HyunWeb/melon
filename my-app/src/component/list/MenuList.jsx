@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import styled from "styled-components";
 import MenuListItem from "./MenuListItem";
 
@@ -12,8 +13,10 @@ function MenuList(props) {
     const { menuInfos, widthChange } = props;
     const[currentMenu, setcurrentMenu] = useState(1);
 
+
     const whiteColor = `#fafafa`;
     const greenColor = `#04E632`;
+    const pathURL = ["/", ,"/MelonChart", "/NewAlbum", "/myMusic"]
 
 
     return (
@@ -28,6 +31,7 @@ function MenuList(props) {
                         elementIndex={menuInfo.id}
                         colors={menuInfo.id == currentMenu ? greenColor : whiteColor}
                         widthChange={widthChange}
+                        goPath={pathURL[menuInfo.id-1]}
                     />
                 )
             })}

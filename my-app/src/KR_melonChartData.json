@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "albumImage": "melonChartMusic_1.jpeg",
+        "artistName": "임재현",
+        "musicName": "비의 랩소디"
+    },
+    {
+        "id": 2,
+        "albumImage": "melonChartMusic_2.jpeg",
+        "artistName": "태연(TAEYEON)",
+        "musicName": "To. X"
+    },
+    {
+        "id": 3,
+        "albumImage": "melonChartMusic_3.jpeg",
+        "artistName": "LE SSERAFIM (르세라핌)",
+        "musicName": "Perfect Night"
+    },
+    {
+        "id": 4,
+        "albumImage": "melonChartMusic_4.jpeg",
+        "artistName": "aespa",
+        "musicName": "Drama"
+    },
+    {
+        "id": 5,
+        "albumImage": "melonChartMusic_5.jpeg",
+        "artistName": "박재정",
+        "musicName": "헤어지자 말해요"
+    },
+    {
+        "id": 6,
+        "albumImage": "melonChartMusic_6.jpeg",
+        "artistName": "이무진",
+        "musicName": "에피소드"
+    },
+    {
+        "id": 7,
+        "albumImage": "melonChartMusic_7.jpeg",
+        "artistName": "범진",
+        "musicName": "인사"
+    },
+    {
+        "id": 8,
+        "albumImage": "melonChartMusic_8.jpeg",
+        "artistName": "너드커넥션 (Nerd Connection)",
+        "musicName": "그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection))"
+    },
+    {
+        "id": 9,
+        "albumImage": "melonChartMusic_9.jpeg",
+        "artistName": "임영웅",
+        "musicName": "사랑은 늘 도망가"
+    },
+    {
+        "id": 10,
+        "albumImage": "melonChartMusic_10.jpeg",
+        "artistName": "정국",
+        "musicName": "Seven (feat. Latto) - Clean Ver."
+    }
+]
