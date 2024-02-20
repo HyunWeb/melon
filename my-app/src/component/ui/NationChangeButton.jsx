@@ -36,16 +36,15 @@ const ButtonOff = styled(ButtonOn)`
 `;
 
 function NationChangeButton (props) {
-    const[ChangeState, setChangeState] = useState(true);
-
+    const {onClick, state} = props;
     const TurnOn = () => {
-        setChangeState((prevState) => !prevState);
+        onClick((prevState) => !prevState);
     }
 
     return(
         <Wrapper>
-            { ChangeState ? <ButtonOn>국내</ButtonOn> : <ButtonOff onClick={TurnOn}>국내</ButtonOff>}
-            { ChangeState ? <ButtonOff onClick={TurnOn}>해외</ButtonOff> : <ButtonOn>해외</ButtonOn>}
+            { state ? <ButtonOn>국내</ButtonOn> : <ButtonOff onClick={TurnOn}>국내</ButtonOff>}
+            { state ? <ButtonOff onClick={TurnOn}>해외</ButtonOff> : <ButtonOn>해외</ButtonOn>}
         </Wrapper>
     );
 }

@@ -3,9 +3,15 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     width: ${(props) => props.width};
+    height: ${(props)=>props.height || ""};
+
     display: flex;
     flex-direction: row;
-    justify-content: ${(props) => props.position};
+    justify-content: ${(props) => props.justifyContent};
+    align-items: ${(props)=>props.alignItems || "normal"};
+    position: ${(props)=>props.position || "static"};
+    
+    right: 0;
 `;
 const Button1 = styled.button`
     width: 35px;
@@ -35,9 +41,9 @@ const Button3 = styled(Button1)`
 `;
 
 function ButtonBox (props) {
-    const {buttonImg1, buttonImg2, buttonImg3, width, position, marginLeft} = props
+    const {buttonImg1, buttonImg2, buttonImg3, width ,height , justifyContent, alignItems, marginLeft, position} = props
     return(
-        <Wrapper width={width} position={position}>
+        <Wrapper width={width} height={height} justifyContent={justifyContent} alignItems={alignItems} position={position}>
             <Button1 url={process.env.PUBLIC_URL + `/${buttonImg1}`}/>
             <Button2 url={process.env.PUBLIC_URL + `/${buttonImg2}`} widelength={marginLeft}/>
             <Button3 url={process.env.PUBLIC_URL + `/${buttonImg3}`} widelength={marginLeft}/>

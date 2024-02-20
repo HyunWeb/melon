@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 import NationChangeButton from "../ui/NationChangeButton";
-import MelonChartList from "../list/MelonChartList";
+import MelonChartBlock from "../list/MelonChartBlock";
 
 const Wrapper = styled.div`
     width: calc(100% - 340px);
@@ -10,10 +10,12 @@ const Wrapper = styled.div`
 `;
 
 function MelonChart (props) {
+    const[ChangeState, setChangeState] = useState(true);
+
     return(
         <Wrapper>
-            <NationChangeButton/>
-            <MelonChartList/>
+            <NationChangeButton state={ChangeState} onClick={setChangeState}/>
+            <MelonChartBlock state={ChangeState} onClick={setChangeState}/>
         </Wrapper>
     );
 
