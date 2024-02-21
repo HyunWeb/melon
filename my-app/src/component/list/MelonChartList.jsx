@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import MelonChartListItem from "./MelonChartListItem";
-import KR_melonChartData from "../../KR_melonChartData.json";
-import POP_melonChartData from "../../POP_melonChartData.json";
 
 const Wrapper = styled.div`
 width: 45%;
@@ -26,13 +24,14 @@ const Strong = styled.strong`
 const List = styled.ul``;
 
 function MelonChartList (props) {
+    const {Data} = props;
 
     return(
         <Wrapper>
             <ChartTitle>멜론차트 <Strong>TOP 10</Strong></ChartTitle>
 
             <List>
-                { KR_melonChartData && KR_melonChartData.map((dataInfo)=>{
+                { Data && Data.map((dataInfo)=>{
                     return(
                     <MelonChartListItem
                         key={dataInfo.id}
@@ -40,7 +39,8 @@ function MelonChartList (props) {
                         artist={dataInfo.artistName}
                         music={dataInfo.musicName}
                         index={dataInfo.id}
-                        display={dataInfo.id === 1 && "none"}
+                        display={dataInfo.id === 1 ? "none" : ""}
+                        alt={dataInfo.alt}
                     />
                     );
                 })}

@@ -15,12 +15,12 @@ const Wrapper = styled.div`
 
 
 function MelonChartBlock (props) {
-    const {onClick, state} = props;
+    const {state} = props;
 
     return(
         <Wrapper>
-            <TopRanking Data={KR_melonChartData}/>
-            <MelonChartList/>
+            <TopRanking Data={state ? KR_melonChartData : POP_melonChartData}/>
+            <MelonChartList Data={state ? KR_melonChartData : POP_melonChartData}/>
         </Wrapper>
     );
 

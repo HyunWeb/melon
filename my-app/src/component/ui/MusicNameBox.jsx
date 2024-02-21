@@ -5,7 +5,6 @@ const MusicNameBoxWrap = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // padding-left: 20px;
     white-space: nowrap;
     overflow: hidden;
 `;

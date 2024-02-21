@@ -14,7 +14,8 @@ const PlayButton = styled.button`
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("/PlayButton.svg");
+    background-image: url(${process.env.PUBLIC_URL}/PlayButton.svg);
+    
 
     outline: none;
     border: none;
@@ -51,11 +52,11 @@ const FeedParagraph = styled.p`
 `;
 
 function FeedBox(props) {
-    const {feedImgfile, text, thumbnail, recommendCount, userName} = props;
+    const {feedImgfile, text, thumbnail, recommendCount, userName, alt} = props;
     return(
         <Wrapper>
             <PlayButton></PlayButton>
-            <FeedImg src={process.env.PUBLIC_URL + `/${feedImgfile}`}/>
+            <FeedImg src={process.env.PUBLIC_URL + `/${feedImgfile}`} alt={alt}/>
             <FeedProfile thumbnails={thumbnail} recommendCount={recommendCount} userName={userName} />
             <FeedParagraph>{text}</FeedParagraph>
         </Wrapper>

@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import SearchListItem from "./SearchListItem";
 
@@ -41,7 +41,7 @@ const List = styled.ul`
 `;
 
 function RecentSearchList (props) {
-    const {musicNames, searchLists, ClickFunc} = props
+    const { searchLists, ClickFunc} = props
     return(
         <Wrapper>
             <Container>

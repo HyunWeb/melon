@@ -21,6 +21,7 @@ function FeedBoxList () {
                         thumbnail={dataInfo.thumbnail}
                         recommendCount={dataInfo.recommendCount}
                         userName={dataInfo.userName}
+                        alt={dataInfo.alt}
                     />
                 );
             })}

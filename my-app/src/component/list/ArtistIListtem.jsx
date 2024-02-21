@@ -13,9 +13,7 @@ const ImgBox = styled.div`
     overflow: hidden;
 `;
 
-const ArtistImg = styled.img.attrs({
-    alt:`추천하는 아티스트`
-})`
+const ArtistImg = styled.img`
     width: 70px;
     cursor: pointer;
     transition-duration: 400ms;
@@ -33,13 +31,14 @@ const ArtistNames = styled.p`
 `;
 
 function ArtistListItem(props) {
-    const { imgFile, artistName } = props;
+    const { imgFile, artistName, alt } = props;
 
     return (
         <WrapItem>
             <ImgBox>
                 <ArtistImg 
                     src={process.env.PUBLIC_URL + `/${imgFile}`}
+                    alt={alt}
                 />
             </ImgBox>
 

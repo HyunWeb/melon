@@ -13,9 +13,7 @@ const ThumbnailImg = styled.img`
     border-radius: 50%;
 `;
 
-const ImgWrap = styled.div`
-
-`;
+const ImgWrap = styled.div``;
 
 
 function FeedProfile (props) {
@@ -23,7 +21,9 @@ function FeedProfile (props) {
 
     return(
         <Wrapper>
-            <ImgWrap><ThumbnailImg src={process.env.PUBLIC_URL + `/${thumbnails}`}/></ImgWrap>
+            <ImgWrap>
+                <ThumbnailImg src={process.env.PUBLIC_URL + `/${thumbnails}`} alt={`썸네일 이미지`}/>
+            </ImgWrap>
             <ProfileUsername userName={userName} recommendCount={recommendCount}/>
         </Wrapper>
     );

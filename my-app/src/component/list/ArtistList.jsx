@@ -18,6 +18,7 @@ function ArtistList(props) {
                             key={artistInfo.id}
                             imgFile={artistInfo.imgFile}
                             artistName={artistInfo.artistName}
+                            alt={artistInfo.alt}
                         />
                     )
                 })}

@@ -48,12 +48,12 @@ const ArtistName = styled.p`
 function TopRanking (props) {
     const {Data} = props;
 
-    console.log(Data[0].albumImage);
     return(
         <Wrapper>
             <RankingToptitle><Strong>1</Strong>위</RankingToptitle>
             <AlbumImg
                 src={process.env.PUBLIC_URL + `/${Data[0].albumImage}`}
+                alt={`1위 앨범 커버 이미지`}
             />
             <MusicName>{Data[0].musicName}</MusicName>
             <ArtistName>{Data[0].artistName}</ArtistName>
@@ -62,7 +62,7 @@ function TopRanking (props) {
             buttonImg2={`playIcon.svg`} 
             buttonImg3={`addPlayListIcon.svg`}
             size={"35px"}
-            justifyContent={"center"}
+            justifycontent={"center"}
             marginLeft={"20px"}
             />
         </Wrapper>

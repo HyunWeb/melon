@@ -8,7 +8,8 @@ const SMenuListItem = styled.li`
     transition-duration: 200ms;
     height: 80px;
     line-height: 80px;
-    background-image: url("${(props) => props.url}");
+    background-image: ${({ $url }) => `url(${process.env.PUBLIC_URL}/${$url})`};
+    
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: 45px center;
@@ -46,7 +47,7 @@ function MenuListItem(props) {
             navigate(goPath);
         }
     const ChangeWidthFunc = () => {
-        if(elementIndex == 2)
+        if(elementIndex === 2)
         widthChange((prevIsConfirmed) => !prevIsConfirmed);
         else {
         widthChange(false);
@@ -55,7 +56,7 @@ function MenuListItem(props) {
     
 
     return (
-        <SMenuListItem url={process.env.PUBLIC_URL + `/${imgFile}`} onClick={ChangeWidthFunc}>
+        <SMenuListItem $url={imgFile} onClick={ChangeWidthFunc}>
             <SListItemButton color={colors} onClick={Clickmethods}>
                 { menuName }
             </SListItemButton>

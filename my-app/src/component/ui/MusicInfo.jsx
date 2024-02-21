@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 function MusicInfo () {
     return(
         <Wrapper>
-            <AlbumCd radius={`80px`} imgFile={`feedImg_1.jpeg`} cdHole={`20px`}/>
+            <AlbumCd radius={`80px`} imgFile={`feedImg_1.jpeg`} width={`20px`} height={`20px`}/>
             <MusicNameBox musicName={`옥상에서 춤을`} artistName={`SRUL`}/>
             <ButtonBox 
                 width={`170px`} 
@@ -27,7 +27,6 @@ function MusicInfo () {
                 buttonImg1={`prevButton.svg`} 
                 buttonImg2={`pauseButton.svg`} 
                 buttonImg3={`nextButton.svg`}
-            
             />
         </Wrapper>
     );

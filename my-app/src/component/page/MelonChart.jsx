@@ -15,7 +15,7 @@ function MelonChart (props) {
     return(
         <Wrapper>
             <NationChangeButton state={ChangeState} onClick={setChangeState}/>
-            <MelonChartBlock state={ChangeState} onClick={setChangeState}/>
+            <MelonChartBlock state={ChangeState}/>
         </Wrapper>
     );
 

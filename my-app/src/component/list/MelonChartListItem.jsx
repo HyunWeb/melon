@@ -27,7 +27,9 @@ const Imagespan = styled.span`
     display: block;
     width: 90px;
     height: 86px;
-    background-image: url("${(props)=>props.ImageUrl}");
+    background-image: ${({ $imagepath }) => `url(${process.env.PUBLIC_URL}/${$imagepath})`};
+    
+    
     background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,7 +64,7 @@ function MelonChartListItem (props) {
     return(
         <Wrapper display={display}>
                 <IndexSpan>{index}</IndexSpan>
-                <Imagespan ImageUrl={Image}/>
+                <Imagespan $imagepath={Image}/>
                 <MusicSpan>{music}</MusicSpan>
                 <ArtistSpan>{artist}</ArtistSpan>
             <ButtonBox 
@@ -70,11 +72,11 @@ function MelonChartListItem (props) {
             buttonImg2={`playIcon.svg`} 
             buttonImg3={`addPlayListIcon.svg`}
             size={"35px"}
-            justifyContent={"center"}
+            justifycontent={"center"}
             marginLeft={"10px"}
             position={"absolute"}
             height={"86px"}
-            alignItems={"center"}
+            $alignItems={"center"}
             />
         </Wrapper>
     );

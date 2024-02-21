@@ -11,7 +11,7 @@ const SLogoA = styled.a`
     height: 41px;
 `;
 
-const SLogoImg = styled.img.attrs({ alt:'멜론 로고'})`
+const SLogoImg = styled.img`
     display: block;
 `;
 
@@ -20,7 +20,7 @@ function LogoBox(props) {
     return(
         <SLogodiv>
             <SLogoA>
-                <SLogoImg src={process.env.PUBLIC_URL + `/${logoImg}`}/>
+                <SLogoImg src={process.env.PUBLIC_URL + `/${logoImg}`} alt={'멜론 로고'}/>
             </SLogoA>
         </SLogodiv>
     );

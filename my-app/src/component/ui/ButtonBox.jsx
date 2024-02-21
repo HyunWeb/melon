@@ -7,9 +7,10 @@ const Wrapper = styled.div`
 
     display: flex;
     flex-direction: row;
-    justify-content: ${(props) => props.justifyContent};
-    align-items: ${(props)=>props.alignItems || "normal"};
-    position: ${(props)=>props.position || "static"};
+    justify-content: ${(props) => props.$justifycontent};
+    align-items: ${({ $alignItems }) => $alignItems || "normal"};
+    
+    position: ${(props)=>props.$position || "static"};
     
     right: 0;
 `;
@@ -28,25 +29,25 @@ const Button1 = styled.button`
     fill: green;
     transition-duration: 400ms;
 
-    background-image: url("${(props) => props.url}");
+    background-image: ${({ $url }) => `url(${process.env.PUBLIC_URL}/${$url})`};
     &: hover{
         transform: scale(1.1);
     };
 `;
 const Button2 = styled(Button1)`
-    margin-left: ${(props) => props.widelength || "10px"}
+    margin-left: ${(props) => props.$widelength || "10px"}
 `;
 const Button3 = styled(Button1)`
-    margin-left: ${(props) => props.widelength || "10px"}
+    margin-left: ${(props) => props.$widelength || "10px"}
 `;
 
 function ButtonBox (props) {
-    const {buttonImg1, buttonImg2, buttonImg3, width ,height , justifyContent, alignItems, marginLeft, position} = props
+    const {buttonImg1, buttonImg2, buttonImg3, width ,height , justifycontent, $alignItems, marginLeft, position} = props
     return(
-        <Wrapper width={width} height={height} justifyContent={justifyContent} alignItems={alignItems} position={position}>
-            <Button1 url={process.env.PUBLIC_URL + `/${buttonImg1}`}/>
-            <Button2 url={process.env.PUBLIC_URL + `/${buttonImg2}`} widelength={marginLeft}/>
-            <Button3 url={process.env.PUBLIC_URL + `/${buttonImg3}`} widelength={marginLeft}/>
+        <Wrapper width={width} height={height} $justifycontent={justifycontent} $alignItems={$alignItems} $position={position}>
+            <Button1 $url={buttonImg1}/>
+            <Button2 $url={buttonImg2} $widelength={marginLeft}/>
+            <Button3 $url={buttonImg3} $widelength={marginLeft}/>
         </Wrapper>
     );
 }

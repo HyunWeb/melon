@@ -2,60 +2,70 @@
     {
         "id": 1,
         "albumImage": "melonChartMusic_1.jpeg",
+        "alt": "비의 랩소디 앨범 커버",
         "artistName": "임재현",
         "musicName": "비의 랩소디"
     },
     {
         "id": 2,
         "albumImage": "melonChartMusic_2.jpeg",
+        "alt": "To. X 앨범 커버",
         "artistName": "태연(TAEYEON)",
         "musicName": "To. X"
     },
     {
         "id": 3,
         "albumImage": "melonChartMusic_3.jpeg",
+        "alt": "Perfect Night 앨범 커버",
         "artistName": "LE SSERAFIM (르세라핌)",
         "musicName": "Perfect Night"
     },
     {
         "id": 4,
         "albumImage": "melonChartMusic_4.jpeg",
+        "alt": "Drama 앨범 커버",
         "artistName": "aespa",
         "musicName": "Drama"
     },
     {
         "id": 5,
         "albumImage": "melonChartMusic_5.jpeg",
+        "alt": "헤어지자 말해요 앨범 커버",
         "artistName": "박재정",
         "musicName": "헤어지자 말해요"
     },
     {
         "id": 6,
         "albumImage": "melonChartMusic_6.jpeg",
+        "alt": "에피소드 앨범 커버",
         "artistName": "이무진",
         "musicName": "에피소드"
     },
     {
         "id": 7,
         "albumImage": "melonChartMusic_7.jpeg",
+        "alt": "인사 앨범 커버",
         "artistName": "범진",
         "musicName": "인사"
     },
     {
         "id": 8,
         "albumImage": "melonChartMusic_8.jpeg",
+        "alt": "그대만 있다면 앨범 커버",
         "artistName": "너드커넥션 (Nerd Connection)",
         "musicName": "그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection))"
     },
     {
         "id": 9,
         "albumImage": "melonChartMusic_9.jpeg",
+        "alt": "사랑은 늘 도망가 앨범 커버",
         "artistName": "임영웅",
         "musicName": "사랑은 늘 도망가"
     },
     {
         "id": 10,
         "albumImage": "melonChartMusic_10.jpeg",
+        "alt": "Seven 앨범 커버",
         "artistName": "정국",
         "musicName": "Seven (feat. Latto) - Clean Ver."
     }
