@@ -1,24 +1,30 @@
 [
     {
         "id": 1,
+        "musicName": "옥상에서 춤을",
+        "artistName": "SRUL",
+        "albumImg": "feedImg_1.jpeg"
+    },
+    {
+        "id": 2,
         "musicName": "Love wins all",
         "artistName": "아이유",
         "albumImg": "playListImg_1.jpeg"
     },
     {
-        "id": 2,
+        "id": 3,
         "musicName": "헤어지자 말해요",
         "artistName": "박재정",
         "albumImg": "playListImg_2.jpeg"
     },
     {
-        "id": 3,
+        "id": 4,
         "musicName": "Super Shy",
         "artistName": "NewJeans",
         "albumImg": "playListImg_3.jpeg"
     },
     {
-        "id": 4,
+        "id": 5,
         "musicName": "인사",
         "artistName": "범진",
         "albumImg": "playListImg_4.jpeg"

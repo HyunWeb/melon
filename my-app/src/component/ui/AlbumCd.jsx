@@ -1,10 +1,17 @@
 import React from 'react';
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const rotateCD = keyframes`
+    to{
+        transform: rotate(360deg);
+    }
+`;
+
 
 const Wrapper = styled.div`
     padding: 10px;
-    display:flex;
-    justify-content: center;
+
+
 `;
 
 const AlbumImg = styled.div`
@@ -16,6 +23,8 @@ const AlbumImg = styled.div`
     background-position: center;
     background-size: ${(props) => props.radius};
     position: relative;
+    animation: ${rotateCD} 10s infinite linear;
+    animation-play-state: ${(props) => props.$IsRotate};
 `;
 
 const CdHole = styled.div`
@@ -32,10 +41,11 @@ const CdHole = styled.div`
 
 
 function AlbumCd (props) {
-    const { radius,imgFile, width, height } = props;
+
+    const { radius, imgFile, width, height, IsRotate } = props;
     return(
     <Wrapper>
-        <AlbumImg radius={radius} $url={imgFile} >
+        <AlbumImg radius={radius} $url={imgFile} $IsRotate={IsRotate} >
             <CdHole width={width} height={height}></CdHole>
         </AlbumImg>
     </Wrapper>

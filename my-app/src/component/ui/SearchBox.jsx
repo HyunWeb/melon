@@ -7,6 +7,7 @@ const Wrapper = styled.div`
     width: 460px;
     height: 100%;
     position: fixed;
+    z-index: 1;
     background-color: #121212;
     color: #fafafa;
     transition-duration: 400ms;

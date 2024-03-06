@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Need to Know 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Need to Know",
+        "artistName" : "이용신",
+        "date" : "2024.02.22",
+        "countOfLike" : 33
+    },
+    {
+        "id": 2,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "영원히 머물게요 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "영원히 머물게요",
+        "artistName" : "성휘",
+        "date" : "2024.02.22",
+        "countOfLike" : 24
+    },
+    {
+        "id": 3,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "영화처럼 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "영화처럼",
+        "artistName" : "수빈",
+        "date" : "2024.02.22",
+        "countOfLike" : 16
+    },
+    {
+        "id": 4,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Emotion Rain 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Emotion Rain",
+        "artistName" : "박준하",
+        "date" : "2024.02.22",
+        "countOfLike" : 37
+    },
+    {
+        "id": 5,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "TRUST ME 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "TRUST ME",
+        "artistName" : "유겸(YUGYEOM)",
+        "date" : "2024.02.21",
+        "countOfLike" : 383
+    },
+    {
+        "id": 6,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "형 (兄) 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "형 (兄)",
+        "artistName" : "이보람(씨야)",
+        "date" : "2024.02.21",
+        "countOfLike" : 479
+    },
+    {
+        "id": 7,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "STILL YOUNG BOY L 새 앨범 커버",
+        "kindOfAlbum" : "EP",
+        "albumName" : "STILL YOUNG BOY L",
+        "artistName" : "릴러말즈(Leellamarz)",
+        "date" : "2024.02.22",
+        "countOfLike" : 547
+    },
+    {
+        "id": 8,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Milky Way 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Milky Way",
+        "artistName" : "스텔라이브",
+        "date" : "2024.02.21",
+        "countOfLike" : 985
+    },
+    {
+        "id": 9,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Your Dream 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Your Dream",
+        "artistName" : "TOVE",
+        "date" : "2024.02.22",
+        "countOfLike" : 8
+    },
+    {
+        "id": 10,
+        "albumImage" : "newAlbum_10.jpeg",
+        "alt": "can't stop 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "can't stop",
+        "artistName" : "D-dolpH(디돌프)",
+        "date" : "2024.02.22",
+        "countOfLike" : 5
+    },
+    {
+        "id": 11,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Need to Know 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Need to Know",
+        "artistName" : "이용신",
+        "date" : "2024.02.22",
+        "countOfLike" : 33
+    },
+    {
+        "id": 12,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "영원히 머물게요 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "영원히 머물게요",
+        "artistName" : "성휘",
+        "date" : "2024.02.22",
+        "countOfLike" : 24
+    },
+    {
+        "id": 13,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "영화처럼 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "영화처럼",
+        "artistName" : "수빈",
+        "date" : "2024.02.22",
+        "countOfLike" : 16
+    },
+    {
+        "id": 14,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Emotion Rain 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Emotion Rain",
+        "artistName" : "박준하",
+        "date" : "2024.02.22",
+        "countOfLike" : 37
+    },
+    {
+        "id": 15,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "TRUST ME 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "TRUST ME",
+        "artistName" : "유겸(YUGYEOM)",
+        "date" : "2024.02.21",
+        "countOfLike" : 383
+    },
+    {
+        "id": 16,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "형 (兄) 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "형 (兄)",
+        "artistName" : "이보람(씨야)",
+        "date" : "2024.02.21",
+        "countOfLike" : 479
+    },
+    {
+        "id": 17,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "STILL YOUNG BOY L 새 앨범 커버",
+        "kindOfAlbum" : "EP",
+        "albumName" : "STILL YOUNG BOY L",
+        "artistName" : "릴러말즈(Leellamarz)",
+        "date" : "2024.02.22",
+        "countOfLike" : 547
+    },
+    {
+        "id": 18,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Milky Way 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Milky Way",
+        "artistName" : "스텔라이브",
+        "date" : "2024.02.21",
+        "countOfLike" : 985
+    },
+    {
+        "id": 19,
+        "albumImage" : "newAlbum_1.jpeg",
+        "alt": "Your Dream 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Your Dream",
+        "artistName" : "TOVE",
+        "date" : "2024.02.22",
+        "countOfLike" : 8
+    },
+    {
+        "id": 20,
+        "albumImage" : "newAlbum_10.jpeg",
+        "alt": "can't stop 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "can't stop",
+        "artistName" : "D-dolpH(디돌프)",
+        "date" : "2024.02.22",
+        "countOfLike" : 5
+    }
+]

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import AlbumCd from './AlbumCd';
 import ButtonBox from './ButtonBox';
 import MusicNameBox from './MusicNameBox';
+import playList from '../../playList.json';
 
 const Wrapper = styled.div`
     display: flex;
@@ -17,10 +18,11 @@ const Wrapper = styled.div`
 
 
 function MusicInfo () {
+    
     return(
         <Wrapper>
-            <AlbumCd radius={`80px`} imgFile={`feedImg_1.jpeg`} width={`20px`} height={`20px`}/>
-            <MusicNameBox musicName={`옥상에서 춤을`} artistName={`SRUL`}/>
+            <AlbumCd radius={`80px`} imgFile={playList[0].albumImg} width={`20px`} height={`20px`} IsRotate={"running"}/>
+            <MusicNameBox musicName={playList[0].musicName} artistName={playList[0].artistName}/>
             <ButtonBox 
                 width={`170px`} 
                 position={`center`}

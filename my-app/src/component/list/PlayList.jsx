@@ -28,6 +28,7 @@ function PlayList () {
                             musicName={playListInfo.musicName}
                             artistName={playListInfo.artistName}
                             albumImg={playListInfo.albumImg}
+                            display={playListInfo.id === 1 ? "none" : ""}
                         />
                     );
                 })}

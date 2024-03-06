@@ -11,7 +11,7 @@ const Menubars = styled.div`
     white-space: nowrap;
     overflow: hidden;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: ${(props) => props.width};
     height: 100%;
     background-color: #121212;
@@ -28,7 +28,7 @@ function MenuBar () {
 
             <MenuList
                 menuInfos={ menuData }
-                widthChange={setIsSearch}
+                setIsSearch={setIsSearch}
             />
         </Menubars>
 

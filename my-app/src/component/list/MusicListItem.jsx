@@ -16,6 +16,7 @@ const MusicItems = styled.li`
     background-color: #3c3c3c00;
     border-radius: 18px;
     cursor: pointer;
+    display: ${(props)=>props.display};
 
     &: hover{
         background-color: #3c3c3cd9;
@@ -23,11 +24,11 @@ const MusicItems = styled.li`
 `;
 
 function MusicListItem (props) {
-    const {musicName, artistName, albumImg } = props
+    const {musicName, artistName, albumImg, display } = props
 
     return(
-        <MusicItems>
-            <AlbumCd radius={`80px`} imgFile={`${albumImg}`} cdHole={`20px`}/>
+        <MusicItems display={display} >
+            <AlbumCd radius={`80px`} imgFile={`${albumImg}`} IsRotate={"paused"}/>
             <MusicNameBox musicName={`${musicName}`} artistName={`${artistName}`}/>
             
 

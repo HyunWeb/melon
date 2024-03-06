@@ -6,7 +6,7 @@ import ButtonBox from "../ui/ButtonBox";
 const Wrapper = styled.li`
     font-size: 15px;
     display: flex;
-    height: 86px;
+    height: 65px;
     
     &:not(:last-child){border-bottom: 1px solid #707070;};
     white-space: nowrap;
@@ -16,7 +16,7 @@ const Wrapper = styled.li`
 `;
 
 const IndexSpan = styled.span`
-    line-height: 86px;
+    line-height: 65px;
     font-size: 20px;
     font-weight: 900;
     width: 30px;
@@ -25,21 +25,22 @@ const IndexSpan = styled.span`
 
 const Imagespan = styled.span`
     display: block;
-    width: 90px;
-    height: 86px;
+    width: 65px;
+    height: 100%;
     background-image: ${({ $imagepath }) => `url(${process.env.PUBLIC_URL}/${$imagepath})`};
     
     
-    background-size: 60px;
+    background-size: 50px;
     background-repeat: no-repeat;
     background-position: center;
 
 `;
 
 const MusicSpan = styled.span`
+    padding-left: 30px;
     display: block;
-    line-height: 86px;
-    width: 30%;
+    line-height: 65px;
+    width: 25%;
 
     text-overflow: ellipsis;
     overflow: hidden;
@@ -49,8 +50,9 @@ const MusicSpan = styled.span`
 
 const ArtistSpan = styled.span`
     display: block;
-    line-height: 86px;
-    width: 30%;
+    padding-left: 10px;
+    line-height: 65px;
+    width: 20%;
 
     text-overflow: ellipsis;
     overflow: hidden;
@@ -75,7 +77,7 @@ function MelonChartListItem (props) {
             justifycontent={"center"}
             marginLeft={"10px"}
             position={"absolute"}
-            height={"86px"}
+            height={"65px"}
             $alignItems={"center"}
             />
         </Wrapper>

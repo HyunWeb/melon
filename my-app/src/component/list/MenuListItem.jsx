@@ -37,7 +37,7 @@ const SListItemButton = styled.button`
 `;
 
 function MenuListItem(props) {
-    const {imgFile, menuName, settingcurrentMenu, colors, elementIndex, widthChange, goPath} = props;
+    const {imgFile, menuName, settingcurrentMenu, colors, elementIndex, setIsSearch, goPath} = props;
     const navigate = useNavigate();
 
 
@@ -48,9 +48,9 @@ function MenuListItem(props) {
         }
     const ChangeWidthFunc = () => {
         if(elementIndex === 2)
-        widthChange((prevIsConfirmed) => !prevIsConfirmed);
+        setIsSearch((prevIsConfirmed) => !prevIsConfirmed);
         else {
-        widthChange(false);
+        setIsSearch(false);
         }
     }
     

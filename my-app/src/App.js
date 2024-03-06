@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
+import MenuContext from "./component/context/MenuContext";
 import MenuBar from './component/ui/MenuBar';
+import BottomMusicPlayer from "./component/ui/BottomMusicPlayer";
 import {
   BrowserRouter,
   Routes,
@@ -8,14 +10,21 @@ import {
 // Pages
 import MainPage from './component/page/MainPage';
 import MelonChart from './component/page/MelonChart';
+import NewAlbumPage from "./component/page/NewAlbumPage";
 
 function App() {
+  const[currentMenu, setcurrentMenu] = useState(1);
+
   return (
     <BrowserRouter>
-      <MenuBar/>
+      <MenuContext.Provider value={{currentMenu, setcurrentMenu}}>
+          <MenuBar/>
+          <BottomMusicPlayer/>
+      </MenuContext.Provider>
       <Routes>
         <Route index element={<MainPage />}/>
         <Route path="MelonChart" element={<MelonChart />}/>
+        <Route path="NewAlbum" element={<NewAlbumPage />}/>
       </Routes>
     </BrowserRouter>
   );

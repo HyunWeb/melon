@@ -1,4 +1,5 @@
-import React, { useState} from "react";
+import React, {useContext} from "react";
+import MenuContext from "../context/MenuContext";
 
 import styled from "styled-components";
 import MenuListItem from "./MenuListItem";
@@ -10,8 +11,8 @@ const SMenuList = styled.ul`
 `;
 
 function MenuList(props) {
-    const { menuInfos, widthChange } = props;
-    const[currentMenu, setcurrentMenu] = useState(1);
+    const { menuInfos, setIsSearch } = props;
+    const { currentMenu, setcurrentMenu } = useContext(MenuContext);
 
 
     const whiteColor = `#fafafa`;
@@ -30,7 +31,7 @@ function MenuList(props) {
                         settingcurrentMenu={setcurrentMenu}
                         elementIndex={menuInfo.id}
                         colors={menuInfo.id === currentMenu ? greenColor : whiteColor}
-                        widthChange={widthChange}
+                        setIsSearch={setIsSearch}
                         goPath={pathURL[menuInfo.id-1]}
                     />
                 )
