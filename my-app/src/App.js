@@ -11,6 +11,7 @@ import {
 import MainPage from './component/page/MainPage';
 import MelonChart from './component/page/MelonChart';
 import NewAlbumPage from "./component/page/NewAlbumPage";
+import MyPage from "./component/page/MyPage";
 
 function App() {
   const[currentMenu, setcurrentMenu] = useState(1);
@@ -25,6 +26,7 @@ function App() {
         <Route index element={<MainPage />}/>
         <Route path="MelonChart" element={<MelonChart />}/>
         <Route path="NewAlbum" element={<NewAlbumPage />}/>
+        <Route path="MyPage" element={<MyPage/>}/>
       </Routes>
     </BrowserRouter>
   );

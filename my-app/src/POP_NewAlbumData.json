@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "albumImage" : "POP_newAlbum_1.jpeg",
+        "alt": "Reasonable Woman 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "Reasonable Woman",
+        "artistName" : "Sia",
+        "date" : "2024.05.03",
+        "countOfLike" : 130
+    },
+    {
+        "id": 2,
+        "albumImage" : "POP_newAlbum_02.jpeg",
+        "alt": "Lady Killers III 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Lady Killers III",
+        "artistName" : "G-Eazy",
+        "date" : "2024.05.02",
+        "countOfLike" : 11
+    },
+    {
+        "id": 3,
+        "albumImage" : "POP_newAlbum_03.jpeg",
+        "alt": "Hell & Never Back 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Hell & Never Back",
+        "artistName" : "Bellah Mae",
+        "date" : "2024.05.03",
+        "countOfLike" : 6
+    },
+    {
+        "id": 4,
+        "albumImage" : "POP_newAlbum_04.jpeg",
+        "alt": "I Was Made For Lovin' You 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "I Was Made For Lovin' You",
+        "artistName" : "YUNGBLUD, Dominic Lewis",
+        "date" : "2024.05.03",
+        "countOfLike" : 8
+    },
+    {
+        "id": 5,
+        "albumImage" : "POP_newAlbum_05.jpeg",
+        "alt": "Indifferent 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Indifferent",
+        "artistName" : "Megan Moroney",
+        "date" : "2024.05.03",
+        "countOfLike" : 0
+    },
+    {
+        "id": 6,
+        "albumImage" : "POP_newAlbum_06.jpeg",
+        "alt": "Whatsapp (Wassam) 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Whatsapp (Wassam)",
+        "artistName" : "Gunna",
+        "date" : "2024.05.03",
+        "countOfLike" : 8
+    },
+    {
+        "id": 7,
+        "albumImage" : "POP_newAlbum_07.jpeg",
+        "alt": "Trippy Land 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Trippy Land",
+        "artistName" : "Mersiv, Tape B, Juicy J",
+        "date" : "2024.05.03",
+        "countOfLike" : 1
+    },
+    {
+        "id": 8,
+        "albumImage" : "POP_newAlbum_08.jpeg",
+        "alt": "MADNESS! 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "MADNESS!",
+        "artistName" : "Johnny Yukon",
+        "date" : "2024.05.03",
+        "countOfLike" : 0
+    },
+    {
+        "id": 9,
+        "albumImage" : "POP_newAlbum_09.jpeg",
+        "alt": "days months years 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "days months years",
+        "artistName" : "hanbee",
+        "date" : "2024.05.03",
+        "countOfLike" : 1
+    },
+    {
+        "id": 10,
+        "albumImage" : "POP_newAlbum_10.jpeg",
+        "alt": "To The Moon 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "To The Moon",
+        "artistName" : "Meghan Trainor",
+        "date" : "2024.05.03",
+        "countOfLike" : 21
+    },
+    {
+        "id": 11,
+        "albumImage" : "POP_newAlbum_11.jpeg",
+        "alt": "Sacrifice Tomorrow 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Sacrifice Tomorrow",
+        "artistName" : "Alec Benjamin",
+        "date" : "2024.05.03",
+        "countOfLike" : 45
+    },
+    {
+        "id": 12,
+        "albumImage" : "POP_newAlbum_12.jpeg",
+        "alt": "Cocoon 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Cocoon",
+        "artistName" : "Holly Humberstone",
+        "date" : "2024.05.03",
+        "countOfLike" : 8
+    },
+    {
+        "id": 13,
+        "albumImage" : "POP_newAlbum_13.jpeg",
+        "alt": "3:AM 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "3:AM",
+        "artistName" : "Rapsody",
+        "date" : "2024.05.03",
+        "countOfLike" : 3
+    },
+    {
+        "id": 14,
+        "albumImage" : "POP_newAlbum_14.jpeg",
+        "alt": "Miracle 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "Miracle",
+        "artistName" : "RINI",
+        "date" : "2024.05.03",
+        "countOfLike" : 21
+    },
+    {
+        "id": 15,
+        "albumImage" : "POP_newAlbum_15.jpeg",
+        "alt": "God Needs The Devil 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "God Needs The Devil",
+        "artistName" : "Jonah Kagen",
+        "date" : "2024.05.03",
+        "countOfLike" : 2
+    },
+    {
+        "id": 16,
+        "albumImage" : "POP_newAlbum_16.jpeg",
+        "alt": "falling or flying 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "falling or flying",
+        "artistName" : "Jorja Smith",
+        "date" : "2024.05.03",
+        "countOfLike" : 8
+    },
+    {
+        "id": 17,
+        "albumImage" : "POP_newAlbum_17.jpeg",
+        "alt": "hate me 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "hate me",
+        "artistName" : "Kanii, wolfacejoeyy",
+        "date" : "2024.05.03",
+        "countOfLike" : 1
+    },
+    {
+        "id": 18,
+        "albumImage" : "POP_newAlbum_18.jpeg",
+        "alt": "close to you 새 앨범 커버",
+        "kindOfAlbum" : "싱글",
+        "albumName" : "close to you",
+        "artistName" : "kenzie, ASTN",
+        "date" : "2024.05.03",
+        "countOfLike" : 6
+    },
+    {
+        "id": 19,
+        "albumImage" : "POP_newAlbum_19.jpeg",
+        "alt": "Radical Optimism 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "Radical Optimism",
+        "artistName" : "Dua Lipa",
+        "date" : "2024.05.03",
+        "countOfLike" : 436
+    },
+    {
+        "id": 20,
+        "albumImage" : "POP_newAlbum_20.jpeg",
+        "alt": "Midnight Sun 새 앨범 커버",
+        "kindOfAlbum" : "정규",
+        "albumName" : "Midnight Sun",
+        "artistName" : "Moon haewon, Tsuyoshi Yamamoto",
+        "date" : "2024.05.03",
+        "countOfLike" : 59
+    }
+]

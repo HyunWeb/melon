@@ -17,7 +17,7 @@ function MenuList(props) {
 
     const whiteColor = `#fafafa`;
     const greenColor = `#04E632`;
-    const pathURL = ["/",undefined ,"/MelonChart", "/NewAlbum", "/myMusic"]
+    const pathURL = ["/",undefined ,"/MelonChart", "/NewAlbum", "/MyPage"]
 
 
     return (
